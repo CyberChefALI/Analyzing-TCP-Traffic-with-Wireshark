@@ -23,3 +23,9 @@ Wireshark is an open-source tool that captures and analyzes network traffic, all
 
 * Root-Cause Troubleshooting: When a critical service goes down or acts strangely, it helps pinpoint whether the root cause is a misconfigured protocol, dropped packets, or unexpected network latency.
 
+  ## Launch the Wireshark Application:
+
+   Initialize the binary or daemon with administrative or root privileges to ensure proper access to the underlying network interface controllers (NICs).
+  <img width="1920" height="991" alt="The Wireshark Network Analyzer 17_10_2026 19_09_48" src="https://github.com/user-attachments/assets/f53b91f7-8f1a-415f-aa75-d44354ca24d2" />
+
+
