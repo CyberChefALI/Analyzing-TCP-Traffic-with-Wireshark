@@ -44,6 +44,22 @@ Wireshark is an open-source tool that captures and analyzes network traffic, all
 <img width="1280" height="793" alt="_WiFi 17_10_2026 19_37_11" src="https://github.com/user-attachments/assets/629fce98-784f-4652-b055-0bd4831a337d" />
 <img width="1920" height="991" alt="_WiFi 17_10_2026 19_40_25" src="https://github.com/user-attachments/assets/17a5a516-8542-430c-a0b7-1c45ae289f3c" />
 
+## Initialize the Capture Interface:
+
+Navigate to the Altoro Mutual web application via a browser and interact with the service (e.g., submitting login credentials or browsing pages) to initiate HTTP requests and responses.
+
+* Initiate the Application Session: Launch a web browser and navigate to the Altoro Mutual training environment, then authenticate by submitting your credentials to generate active HTTP traffic.
+
+* Execute the Packet Capture: Open Wireshark, select the active network interface, and start a live capture session to record ingress and egress packets transiting the local system.
+
+* Apply a Display Filter: In the Wireshark filter toolbar, input the targeted display filter—such as tcp.port == 80 or http—to isolate unencrypted web traffic, parsing out extraneous network chatter to focus exclusively on port 80 application transactions.
+  <img width="1920" height="1020" alt="Altoro Mutual - Personal - Microsoft​ Edge 17_10_2026 19_52_11" src="https://github.com/user-attachments/assets/2d3d8b7d-15aa-4325-bb27-39936ad0f35d" />
+  <img width="1920" height="1020" alt="Altoro Mutual - Personal - Microsoft​ Edge 17_10_2026 19_52_38" src="https://github.com/user-attachments/assets/142eb630-30fb-4c10-8ca1-05593f1b9b14" />
+<img width="1920" height="991" alt="Altoro Mutual - Personal - Microsoft​ Edge 17_10_2026 19_55_35" src="https://github.com/user-attachments/assets/a8cb3ca5-4fd8-4390-a5c6-7d8918c9ef12" />
+
+
+
+
 
 
 
