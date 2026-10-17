@@ -2,7 +2,7 @@
 
 ## Lab Goal: 
 
-To familiarize students with TCP traffic analysis via Wireshark, focusing on connection establishment, the three-way handshake, and the interpretation of key TCP header fields and flags.
+To familiarize students with TCP traffic analysis via Wireshark, focusing on connection establishment, the three-way handshake, and the interpretation of key HTTP header fields and flags.
 
 ## 🛠️ Lab Setup
 
@@ -65,6 +65,15 @@ Unlike the GET method—which appends parameters to the Uniform Resource Identif
 FRAME
 <img width="1920" height="991" alt="_WiFi 17_10_2026 20_23_09" src="https://github.com/user-attachments/assets/5ad185d3-3e7c-4dc9-b9f6-192d4e46b832" />
 
+## Packet List Analysis
+
+Reviewing the top pane of the Wireshark interface, which renders a tabular summary of every captured frame.
+<img width="1920" height="991" alt="_WiFi 17_10_2026 20_46_49" src="https://github.com/user-attachments/assets/006a761e-484b-45d3-a255-aa00f3ca2d45" />
+
+FOLLOW HTTP STREAM
+<img width="1280" height="986" alt="_WiFi 17_10_2026 20_53_04" src="https://github.com/user-attachments/assets/9b39ea94-3a2e-42ca-8776-b1cdecba8d06" />
+
+
 ETHERNET
 <img width="1920" height="991" alt="_WiFi 17_10_2026 20_37_53" src="https://github.com/user-attachments/assets/83da5b43-eb2d-4aab-8530-9925ac17cc30" />
 
@@ -73,6 +82,16 @@ INTERNET PROTOCOL
 
 HTML
 <img width="1920" height="991" alt="_WiFi 17_10_2026 20_38_26" src="https://github.com/user-attachments/assets/5fcc6828-0229-4ce0-bcd1-6fb9925c9394" />
+
+
+NOTE -
+CLIENT = THE RED COLOR REPRESENT THE COMMUNICATION FROM THE CLIENT SIDE.
+SERVER = THE BLUE COLOUR REPRESENT THE COMMUNICATION FROM SERVER SIDE.
+
+
+## Conclusion: Analyzing HTTP Traffic with Wireshark
+
+Analyzing HTTP traffic with Wireshark gives you complete visibility into unencrypted web data, making it a powerful tool for troubleshooting and security auditing, while starkly highlighting the vulnerability of cleartext communications compared to modern HTTPS.
 
 
 
