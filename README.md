@@ -57,6 +57,28 @@ Navigate to the Altoro Mutual web application via a browser and interact with th
   <img width="1920" height="1020" alt="Altoro Mutual - Personal - Microsoft​ Edge 17_10_2026 19_52_38" src="https://github.com/user-attachments/assets/142eb630-30fb-4c10-8ca1-05593f1b9b14" />
 <img width="1920" height="991" alt="Altoro Mutual - Personal - Microsoft​ Edge 17_10_2026 19_55_35" src="https://github.com/user-attachments/assets/a8cb3ca5-4fd8-4390-a5c6-7d8918c9ef12" />
 
+## Payload Transmission: 
+
+Unlike the GET method—which appends parameters to the Uniform Resource Identifier (URI)—POST encapsulates data within the message body of the HTTP request. This prevents sensitive or bulky payloads from appearing in browser history logs or server access logs (assuming transport-layer security is applied).
+<img width="1920" height="991" alt="_WiFi 17_10_2026 20_17_15" src="https://github.com/user-attachments/assets/681b3496-1c6f-4084-8a05-3f8d5b2c74ae" />
+
+FRAME
+<img width="1920" height="991" alt="_WiFi 17_10_2026 20_23_09" src="https://github.com/user-attachments/assets/5ad185d3-3e7c-4dc9-b9f6-192d4e46b832" />
+
+ETHERNET
+<img width="1920" height="991" alt="_WiFi 17_10_2026 20_37_53" src="https://github.com/user-attachments/assets/83da5b43-eb2d-4aab-8530-9925ac17cc30" />
+
+INTERNET PROTOCOL
+<img width="1920" height="991" alt="_WiFi 17_10_2026 20_38_13" src="https://github.com/user-attachments/assets/72e055cc-1cb0-441c-826b-7f28696088d1" />
+
+HTML
+<img width="1920" height="991" alt="_WiFi 17_10_2026 20_38_26" src="https://github.com/user-attachments/assets/5fcc6828-0229-4ce0-bcd1-6fb9925c9394" />
+
+
+
+
+
+
 
 
 
