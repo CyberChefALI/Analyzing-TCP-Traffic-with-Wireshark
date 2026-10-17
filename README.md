@@ -15,10 +15,11 @@ Wireshark is an open-source tool that captures and analyzes network traffic, all
 
 ## 🛡️ Wireshark Use Cases for SOC Analysts
 
-Forensic Detective Work: When a security breach happens, analysts comb through the packet captures to trace exactly how an attacker moved through the network or communicated with their command server.
+* Forensic Detective Work: When a security breach happens, analysts comb through the packet captures to trace exactly how an attacker moved through the network or communicated with their command server.
 
-Hunting Digital Footprints: Analysts use it like a digital microscope to isolate malware traffic and pull out hard evidence—such as malicious IP addresses, domain names, or downloaded files—for threat intelligence.
+* Hunting Digital Footprints: Analysts use it like a digital microscope to isolate malware traffic and pull out hard evidence—such as malicious IP addresses, domain names, or downloaded files—for threat intelligence.
 
-Proactive Threat Hunting: Instead of waiting for an alarm, analysts proactively scan network logs to sniff out hidden threats, like secret data-exfiltration tunnels or unauthorized remote access tools.
+* Proactive Threat Hunting: Instead of waiting for an alarm, analysts proactively scan network logs to sniff out hidden threats, like secret data-exfiltration tunnels or unauthorized remote access tools.
 
-Root-Cause Troubleshooting: When a critical service goes down or acts strangely, it helps pinpoint whether the root cause is a misconfigured protocol, dropped packets, or unexpected network latency.
+* Root-Cause Troubleshooting: When a critical service goes down or acts strangely, it helps pinpoint whether the root cause is a misconfigured protocol, dropped packets, or unexpected network latency.
+
